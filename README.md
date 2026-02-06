@@ -1,8 +1,6 @@
 # Puspa Bhatt | Analysis Portfolio
 
-Hi there! 👋 I'm Puspa!
-
-Gamezone is a fictional gaming equipment company. I analyzed its 2019–2021 sales data to uncover trends, detect anomalies, and highlight opportunities for growth.
+Gamezone is a gaming equipment company. I analyzed its 2019–2021 sales data to uncover trends and draw insights.
 
 **Goal:** Understand revenue trends over time, identify top-performing products and regions, and generate actionable insights to optimize sales and marketing.
 
@@ -11,12 +9,13 @@ Gamezone is a fictional gaming equipment company. I analyzed its 2019–2021 sal
 ## Featured Project: Gamezone Sales Performance Analysis
 
 **Business Question:**  
-How did revenue perform from 2019–2022, and which products and periods drove performance?
+How did revenue perform from 2019–2021, and which products and periods drove performance?
 
 **What I Did:**  
 - Cleaned and analyzed 20,000+ sales transactions  
 - Built an interactive Tableau dashboard 
-- Identified high-performing products and periods, as well as underperforming categories  
+- Identified high-performing products and periods, as well as underperforming categories
+- Provided actionable recommendation
 
 **Tools Used:**  
 Excel | SQL | Tableau
@@ -41,7 +40,7 @@ Cleaned and standardized the dataset in Excel using filters and pivot tables, id
 Before diving into the data, I set up a framework to guide my analysis:
 
 - Stakeholder Goal: Focused on high-level trends since this is fictional data.  
-- Columns and Coverage: Used `usd_price`, `product_name`, and `purchase_ts`.  
+- Columns and Coverage: Used usd_price, product_name, and purchase_ts.  
 - Aggregates and Anomalies: Examined total revenue across months and products, as well as averages, max, and min.  
 - Notable Segments: Sliced data by region and marketing channels.  
 
@@ -120,9 +119,10 @@ After answering key business questions with SQL, I imported the data into Tablea
 Explore trends yourself: [View Tableau Dashboard](https://public.tableau.com/views/gamezone_17701357541600/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 **Key Insights:**  
-- Total revenue reached **$6.1M**  
+- Total revenue reached **$6.1M** with monthly average of **$236k**
 - December 2020 showed an unusual spike, likely influenced by COVID demand  
-- Revenue is concentrated among a few top products, while categories like headsets contributed minimally  
+- Revenue is concentrated among a few top products (gaming monitor, nintendo switch, playstation)
+- Categories like headsets contributed minimally  
 - Direct traffic drives strong sales, but email marketing shows growth potential  
 - Revenue is concentrated in North America and EMEA regions  
 
