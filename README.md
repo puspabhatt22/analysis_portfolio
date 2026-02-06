@@ -142,6 +142,8 @@ Based on the analysis, I recommend the following actions:
 **General / Business Insight:**  
 - Recognize that increased time at home correlates with higher spending on gaming products, informing future marketing and product strategies  
 
+
+These recommendations help optimize sales, increase revenue, and reduce the reliance on one marketing channel.
 ---
 
 ## About Me
